@@ -21,18 +21,21 @@
 
 | 优先级 | 文件 | 推荐方向 |
 |:---:|:---|:---|
-| P0 | `docs/01-theory/01-what-is-agent.md` | Agent 定义、能力分级、与 workflow 的区别 |
-| P0 | `docs/01-theory/04-react-framework.md` | ReAct 原理、最小实现、失败模式 |
+| P0 | `docs/01-theory/02-agent-history.md` | 符号主义 → 深度学习 → LLM Agent 的演进脉络 |
+| P0 | `docs/01-theory/03-transformer.md` | Transformer 架构、注意力机制、上下文窗口 |
 | P0 | `docs/01-theory/05-cot-and-planning.md` | CoT、Plan-and-Solve、树搜索、反思 |
-| P0 | `docs/01-theory/09-evaluation-metrics.md` | 任务成功率、轨迹评分、成本、延迟、安全指标 |
+| P0 | `docs/01-theory/08-agent-bench.md` | AgentBench、WebArena、SWE-bench 等评测基准 |
 | P1 | `docs/02-tech-stack/04-langchain-guide.md` | LangChain 与 LangGraph 的边界，现代用法 |
 | P1 | `docs/02-tech-stack/06-multi-agent-frameworks.md` | AutoGen、CrewAI、Swarm、Magentic-One 对比 |
-| P1 | `docs/02-tech-stack/14-mcp-protocol.md` | MCP 架构、server/client、权限和安全 |
+| P1 | `docs/02-tech-stack/07-agentscope.md` | AgentScope 消息驱动模型与实战 |
+| P1 | `docs/02-tech-stack/08-vector-db-basics.md` | 向量数据库选型、索引原理、混合检索 |
 | P1 | `docs/02-tech-stack/20-rag-full-pipeline.md` | 文档解析、chunk、embedding、rerank、eval |
+| P1 | `docs/02-tech-stack/21-agent-reinforcement-learning.md` | Agent RL、工具调用策略优化、轨迹训练 |
 | P1 | `docs/02-tech-stack/22-build-your-agent-framework.md` | 从零手写 agent loop、tool registry、trace |
 | P2 | `docs/03-practice/02-high-availability-rag.md` | 生产级 RAG 可用性、缓存、降级、监控 |
-| P2 | `docs/03-practice/03-agent-security.md` | Prompt injection、权限、sandbox、secret 管理 |
 | P2 | `docs/03-practice/04-graduation-project.md` | 毕设选题、范围控制、评测和论文写法 |
+
+> 注：`01-what-is-agent.md`、`04-react-framework.md`、`09-evaluation-metrics.md`、`09-mcp-protocol.md`、`03-agent-security.md` 已完成初版，不再列为占位。
 
 ## 后续补内容的原则
 
@@ -46,9 +49,9 @@
 
 最值得下一轮完成的是：
 
-1. `docs/01-theory/01-what-is-agent.md`
-2. `docs/01-theory/04-react-framework.md`
-3. `docs/02-tech-stack/14-mcp-protocol.md`
-4. `docs/03-practice/03-agent-security.md`
+1. `docs/01-theory/03-transformer.md`
+2. `docs/01-theory/05-cot-and-planning.md`
+3. `docs/02-tech-stack/20-rag-full-pipeline.md`
+4. `docs/02-tech-stack/22-build-your-agent-framework.md`
 
-这四篇补完后，仓库会形成“概念 -> loop -> 协议 -> 安全 -> 项目”的更完整闭环。
+这四篇补完后，仓库会形成“大脑原理 -> 规划推理 -> RAG 全链路 -> 自研框架”的更完整闭环。

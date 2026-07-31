@@ -194,9 +194,9 @@
 <td>
 💼 n个简历级实战项目
 
-- ✅ XXXAgent（RAG方向）
-- ✅ XXXMulti-Agent（协作方向）
-- ✅ XXXAgent（高级方向）
+- ✅ Paper Agent（RAG方向）
+- ✅ Travel Agent（Multi-Agent协作方向）
+- ✅ Web Agent（高级方向）
 - ✅ 持续收集高质量开源项目
 </td>
 <td>
@@ -688,7 +688,7 @@ Agent 方向变化很快，当前更值得投入的是能落地、能验证、�
 
 </details>
 
-**📖 完整技术方向详解**：[转行大模型热门方向准备指南](./docs/04-interview/06-career-transition.md)
+**📖 完整技术方向详解**：[转行大模型热门方向准备指南](./docs/04-interview/07-career-transition.md)
 
 > **💡 新手建议**：优先选择**上下文工程开发**（RAG/Agent 系统），岗位最多、最易落地
 
@@ -932,13 +932,13 @@ graph TD
 
 > **这是最重要的一步！没有项目，一切都是空谈！**
 
-AgentGuide 提供 **n 个简历级实战项目**，每个项目都提供：
+AgentGuide 提供 **3 个简历级实战项目**（Paper Agent、Travel Agent、Web Agent），每个项目都提供：
 - ✅ 完整的代码实现
 - ✅ 系统架构设计
 - ✅ **算法岗和开发岗两种简历写法**
 - ✅ 面试时如何讲解
 
-**👉 直接跳转到实战项目**：[点击这里查看n个项目](#32-简历级实战项目-)
+**👉 直接跳转到实战项目**：[点击这里查看实战项目](#-简历级实战项目-)
 
 ---
 
@@ -951,7 +951,6 @@ AgentGuide 提供 **n 个简历级实战项目**，每个项目都提供：
 ### 📊 技术能力四层模型
 
 我们将 Agent 技术划分为**四大能力层级**，每个层级对应不同的学习模块：
-我来创建一个三列的内容导航表格：
 
 ## 📑 内容导航
 
@@ -1022,7 +1021,7 @@ AgentGuide 提供 **n 个简历级实战项目**，每个项目都提供：
   - AutoGPT（自主规划）
   - Multi-Agent（协作涌现）
 
-📖 [阅读：Agent 技术演进史](./docs/01-theory/02-agent-history.md)
+📖 [阅读：Agent 技术演进史](./docs/01-theory/02-agent-history.md)（🚧 编写中）
 
 </td>
 </tr>
@@ -1041,7 +1040,7 @@ AgentGuide 提供 **n 个简历级实战项目**，每个项目都提供：
 | **推理层** | vLLM、TGI、量化技术 | PagedAttention、GPTQ/AWQ 量化、推理优化 |
 | **对齐层** | RLHF、PPO、DPO | Reward Model、策略优化、人类偏好对齐 |
 
-📖 [深入阅读：Transformer 架构详解](./docs/01-theory/03-transformer.md)  
+📖 [深入阅读：Transformer 架构详解](./docs/01-theory/03-transformer.md)（🚧 编写中）  
 📖 [DeepSeek 系列完整深度笔记](./docs/01-theory/10-deepseek-series.md) 🆕  
 📖 [LLaMA 系列完整深度笔记](./docs/01-theory/11-llama-series.md) 🆕  
 📖 [Qwen 系列深度学习笔记](./docs/01-theory/12-qwen-series.md) 🆕
@@ -1087,7 +1086,7 @@ AgentGuide 提供 **n 个简历级实战项目**，每个项目都提供：
 - Strategy Adjustment（策略调整）
 
 📖 [实战教程：手撕 ReAct](./docs/01-theory/04-react-framework.md)  
-📖 [实战教程：规划与执行](./docs/01-theory/05-cot-and-planning.md)
+📖 [实战教程：规划与执行](./docs/01-theory/05-cot-and-planning.md)（🚧 编写中）
 
 </td>
 <td width="50%">
@@ -1134,7 +1133,7 @@ AgentGuide 提供 **n 个简历级实战项目**，每个项目都提供：
 - 异常处理与重试策略
 - 可观测性与日志追踪
 
-📖 [实战项目：打造自己的 Agent 框架](./docs/02-tech-stack/22-build-your-agent-framework.md)
+📖 [实战项目：打造自己的 Agent 框架](./docs/02-tech-stack/22-build-your-agent-framework.md)（🚧 编写中）
 
 </td>
 </tr>
@@ -1223,7 +1222,7 @@ AgentGuide 提供 **n 个简历级实战项目**，每个项目都提供：
 | **A2A** | Agent-to-Agent | 智能体间协作通信 | Multi-Agent 系统、任务分发 |
 | **ANP** | Agent Negotiation Protocol | 智能体协商与共识 | 资源分配、冲突解决 |
 
-📖 [协议详解：MCP 完全指南](./docs/02-tech-stack/14-mcp-protocol.md)
+📖 [协议详解：MCP 完全指南](./docs/02-tech-stack/09-mcp-protocol.md)
 
 </td>
 </tr>
@@ -1289,7 +1288,7 @@ AgentGuide 提供 **n 个简历级实战项目**，每个项目都提供：
 - 🛠️ 工具选择避坑指南
 
 📖 [评估指南：科学评估 Agent](./docs/01-theory/09-evaluation-metrics.md)
-📖 [AgentBench 详解](./docs/01-theory/08-agent-bench.md)
+📖 [AgentBench 详解](./docs/01-theory/08-agent-bench.md)（🚧 编写中）
 📖 [🔥 **AI Agent 评估完全指南** (Anthropic官方万字长文)](./docs/02-tech-stack/agent-evaluation-complete-guide.md) ⭐ **必读**
 
 </td>
@@ -1315,7 +1314,7 @@ AgentGuide 提供 **n 个简历级实战项目**，每个项目都提供：
 - 权限控制与沙盒隔离
 - 人机协作边界（Human-in-the-loop）
 
-📖 [完整指南：高可用 RAG 系统](./docs/03-practice/02-high-availability-rag.md)  
+📖 [完整指南：高可用 RAG 系统](./docs/03-practice/02-high-availability-rag.md)（🚧 编写中）  
 📖 [安全性指南](./docs/03-practice/03-agent-security.md)
 
 ---
@@ -1755,7 +1754,7 @@ AgentGuide 提供 **n 个简历级实战项目**，每个项目都提供：
 - ✅ 算法岗 + 开发岗双版本简历描述
 - ✅ 面试讲解准备材料
 
-📖 [毕业设计完整指南](./docs/03-practice/04-graduation-project.md)
+📖 [毕业设计完整指南](./docs/03-practice/04-graduation-project.md)（🚧 编写中）
 
 </details>
 
@@ -1835,6 +1834,7 @@ AgentGuide 提供 **n 个简历级实战项目**，每个项目都提供：
 - [x] [🧭 AI Agent 面试备战手册合集](./docs/04-interview/18-agent-interview-playbooks/) - Memory、Skills、Harness、评估、数据合成、源码分析与项目话术
 - [x] [📚 1000篇小红书AI算法岗面经：难度递增整合版](./docs/04-interview/19-xiaohongshu-ai-algorithm-interview-bank.md) 🆕 - 按编程、ML/DL、RAG/Agent、多模态、系统设计等难度递增整理
 - [x] [📊 模型评估专题](./docs/04-interview/13-model-evaluation.md) - BLEU/ROUGE、基准测试、LLM-as-Judge **10题**
+- [x] [🗂️ 2025 秋招 LLM/VLM/Agent 面试问题清单](./docs/04-interview/22-2025-autumn-interview-question-list.md) - LLM八股/RAG/Agent/RLHF/评估高频问题合集
 - [x] [🔮 前景与趋势](./docs/04-interview/14-llm-future-trends.md) - AGI、多模态、世界模型等开放讨论 **9题**
 - [x] [💬 开放性讨论](./docs/04-interview/15-open-discussion.md) - 技术判断、学习建议、核心素质 **8题**
 
@@ -1859,8 +1859,8 @@ AgentGuide 提供 **n 个简历级实战项目**，每个项目都提供：
 ```
 
 #### 求职软技能
-- [x] [📝 简历编写指南](./docs/04-interview/12-resume-guide.md) - AI Agent 项目简历公式、双岗写法与自检脚本
-- [x] [🎤 项目讲述技巧](./docs/04-interview/13-storytelling.md) - STAR+Tech 项目表达、追问地图与复盘模板
+- [x] [📝 简历编写指南](./docs/04-interview/20-resume-guide.md) - AI Agent 项目简历公式、双岗写法与自检脚本
+- [x] [🎤 项目讲述技巧](./docs/04-interview/21-storytelling.md) - STAR+Tech 项目表达、追问地图与复盘模板
 - [x] [⭐ 转行大模型指南](./docs/04-interview/07-career-transition.md)
 - [x] [⭐ 秋招完整攻略](./docs/04-interview/08-job-hunting-guide.md)
 
@@ -1923,7 +1923,6 @@ AgentGuide 提供 **n 个简历级实战项目**，每个项目都提供：
   - [Agent 框架对比](./resources/agent/frameworks.md) - 5个核心框架
   - [Memory 模块](./resources/agent/memory.md) - 4个记忆系统
   - [Tool Use](./resources/tools.md) - 工具调用
-  - [GUI Agent](./resources/agent/gui-agent.md) - 界面操作
   - [核心论文](./resources/agent/papers/README.md) - 必读论文
 
 **📊 RAG 方向**：
@@ -1931,14 +1930,11 @@ AgentGuide 提供 **n 个简历级实战项目**，每个项目都提供：
   - [向量数据库](./resources/rag/vector-db.md) - 5个核心向量库
   - [文档解析](./resources/rag/document-parsing.md) - 5个解析工具
   - [完整项目汇总](./resources/rag/projects.md) - 150+个RAG开源项目 🆕
-  - [Embedding 模型](./resources/rag/embedding.md) - Embedding选型
-  - [Reranker](./resources/rag/reranker.md) - 重排序
-  - [高级RAG](./resources/rag/advanced.md) - GraphRAG、HyDE
   - [核心论文](./resources/rag/papers/README.md) - 必读论文
 
 **🛠️ 通用工具**：
 - [x] [开发者工具箱](./resources/tools.md) - Cursor、元宝、Excalidraw
-- [x] [开发框架总览](./resources/frameworks.md) - 快速框架对比
+- [x] [开发框架总览](./resources/agent/frameworks.md) - 快速框架对比
 
 **🎨 推荐可视化学习资源**：
 - 📊 **[100+ LLM/RL 算法原理图](https://github.com/changyeyu/LLM-RL-Visualized)** - 《大模型算法：强化学习、微调与对齐》作者巨献

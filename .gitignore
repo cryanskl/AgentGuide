@@ -26,3 +26,6 @@ external/InterviewGuide/.astro/
 site-dist/
 __pycache__/
 *.pyc
+
+# macOS 系统文件
+.DS_Store

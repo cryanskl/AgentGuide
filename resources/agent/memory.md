@@ -277,9 +277,9 @@ result = memory.search("用户喜欢什么颜色?", user_id="user123")
 
 ## 📝 相关文档
 
-- [Agent Memory 论文精选](Agent%20Memory%20核心论文汇总.md) - 10篇必读论文详解
+- [Agent Memory 论文精选](./papers/agent_memory/Agent%20Memory%20核心论文汇总.md) - 10篇必读论文详解
 - [Agent 框架对比](./frameworks.md)
-- [Tool Use 资源](./tools.md)
+- [Tool Use 资源](../tools.md)
 - [返回 Agent 资源总览](./README.md)
 
 **🔗 完整论文列表**：查看 [Awesome-Awesome-LLM](https://github.com/adongwanai/Awesome-Awesome-LLM)

@@ -327,8 +327,7 @@ Step 5: 准备面试
 
 ## 🔗 相关资源
 
-- [Agent 开发框架推荐](./frameworks.md)
-- [必读论文清单](./papers.md)
-- [优质博客与教程](./blogs.md)
-- [开源项目推荐](./projects.md)
+- [Agent 开发框架推荐](./agent/frameworks.md)
+- [必读论文清单](./agent/papers/README.md)
+- [开源项目推荐](./rag/projects.md)
 
