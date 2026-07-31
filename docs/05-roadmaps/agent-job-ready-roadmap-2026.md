@@ -100,7 +100,7 @@ while True:
 
 - [RAG 全流程指南](../02-tech-stack/20-rag-full-pipeline.md)
 - [Agent Memory 系统完整指南](../02-tech-stack/15-agent-memory.md)
-- [MCP 协议详解](../02-tech-stack/14-mcp-protocol.md)
+- [MCP 协议详解](../02-tech-stack/09-mcp-protocol.md)
 
 **产出物**：一个资料研究助手，输入主题后自动搜索、筛选、总结并输出引用链接。
 

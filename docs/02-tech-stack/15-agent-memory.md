@@ -677,7 +677,7 @@ Week 2: 算法设计与实验
 ## 🔗 相关资源
 
 - [Memory 工具对比](../../resources/agent/memory.md) - 工具选型
-- [Memory 论文精选](Agent%20Memory%20核心论文汇总.md) - 10篇必读
+- [Memory 论文精选](../../resources/agent/papers/agent_memory/Agent%20Memory%20核心论文汇总.md) - 10篇必读
 - [上下文工程](./14-context-engineering.md) - Context Offloading 技巧
 
 ---

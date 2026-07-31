@@ -95,8 +95,8 @@ python docs/04-interview/examples/resume_storytelling_check.py --mode story
 
 ## 📚 Extended Reading（扩展阅读）
 
-- [AI Agent 简历编写指南](../12-resume-guide.md)
-- [AI Agent 项目讲述技巧](../13-storytelling.md)
+- [AI Agent 简历编写指南](../20-resume-guide.md)
+- [AI Agent 项目讲述技巧](../21-storytelling.md)
 - [Agent 系统题](../03-agent-questions.md)
 - [算法岗专项题](../05-algorithm-specialized.md)
 - [开发岗专项题](../06-development-specialized.md)

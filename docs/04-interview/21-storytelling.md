@@ -301,7 +301,7 @@ Agent 的任务完成率更高。我的测试集中多跳任务完成率从 61% 
 
 ## 📚 Extended Reading（扩展阅读）
 
-- [简历撰写指南](./12-resume-guide.md)
+- [简历撰写指南](./20-resume-guide.md)
 - [秋招完整攻略](./08-job-hunting-guide.md)
 - [大厂真实面经](./12-company-interview-cases.md)
 - [开发岗专项题](./06-development-specialized.md)

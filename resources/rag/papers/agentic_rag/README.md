@@ -176,7 +176,7 @@ RAG（检索增强生成）+ 推理增强 + 智能体系统（Agentic Systems）
 
 ### 本项目其他文档
 
-- [RAG 资源汇总](../../README.md)
+- [RAG 资源汇总](../../)
 - [RAG 论文总览](../README.md)
 - [多模态 RAG 论文](../multimodal_rag/README.md)
 

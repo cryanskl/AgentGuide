@@ -103,7 +103,7 @@ Step 3: 开始 AgentGuide 学习（6-8周）
 - ✅ 有工程/项目经验 → 优先开发岗
 - ✅ 两者都有 → **通吃策略**（最推荐！）
 
-**详细对比**：查看 [岗位选择指南](./docs/04-interview/06-career-transition.md)
+**详细对比**：查看 [岗位选择指南](./docs/04-interview/07-career-transition.md)
 
 ---
 
@@ -146,7 +146,7 @@ Step 3: 开始 AgentGuide 学习（6-8周）
 - 如果要基于 AgentGuide 做商业培训，请联系作者授权
 - 可以引用部分内容，但需注明出处
 
-**详见**：[LICENSE](./LICENSE)
+**详见**：仓库根目录 LICENSE（待补充，商用授权请先联系作者）
 
 ---
 

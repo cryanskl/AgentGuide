@@ -364,7 +364,7 @@
 
 - [Agent 开发框架对比](./frameworks.md) - 详细的框架选型指南
 - [Agent 记忆系统设计](./memory.md) - 记忆模块实现方案
-- [RAG 资源大全](../rag/README.md) - RAG 技术栈完整资源
+- [RAG 资源大全](../rag/) - RAG 技术栈完整资源
 - [AI 开发工具箱](../tools.md) - 开发工具和平台推荐
 
 ### 学习路线
