@@ -3,7 +3,17 @@ name: Update resources index
 on:
   push:
     branches: ["main"]
+    paths:
+      - 'docs/**'
+      - 'resources/**'
+      - 'projects/**'
+      - 'external/**'
+      - 'scripts/generate_resources.py'
   workflow_dispatch:
+
+concurrency:
+  group: update-resources
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -13,12 +23,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v7
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
       - name: Setup Python
-        uses: actions/setup-python@v7
+        uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
@@ -30,6 +40,11 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add data/resources.json sitemap.xml || true
-          git commit -m "chore: update resources index" || echo "no changes"
-          git push || echo "skip push"
+          git add data/resources.json sitemap.xml
+          if git diff --cached --quiet; then
+            echo "no changes"
+            exit 0
+          fi
+          git commit -m "chore: update resources index"
+          git pull --rebase origin main
+          git push
